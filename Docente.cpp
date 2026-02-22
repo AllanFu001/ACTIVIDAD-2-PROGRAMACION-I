@@ -47,7 +47,7 @@ string getFechaNacimiento(){return fecha_nacimiento;}
 int getTelefono(){return telefono;}
 bool getGenero(){return genero;}
 
-
+void leer ();
 
 };
 
