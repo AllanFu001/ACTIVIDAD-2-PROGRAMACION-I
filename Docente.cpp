@@ -47,7 +47,19 @@ string getFechaNacimiento(){return fecha_nacimiento;}
 int getTelefono(){return telefono;}
 bool getGenero(){return genero;}
 
-void leer ();
+void leer() {
+        cout << "CUI: " << cui << endl;
+        cout << "Nombres: " << nombres << endl;
+        cout << "Apellidos: " << apellidos << endl;
+        cout << "Direccion: " << direccion << endl;
+        cout << "Fecha Nacimiento: " << fecha_nacimiento << endl;
+        cout << "Telefono: " << telefono << endl;
+        cout << "Genero: " << genero << endl;
+        cout << "Codigo: " << codigo << endl;
+        cout << "NIT: " << nit << endl;
+        cout << "Profesion: " << profesion << endl;
+        cout << "Salario: " << salario << endl;
+    }
 
 };
 

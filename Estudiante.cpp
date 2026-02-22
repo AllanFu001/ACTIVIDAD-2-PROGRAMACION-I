@@ -21,7 +21,7 @@ void setCui(string c){cui=c;}
 void setNombres(string nom){nombres=nom;}
 void setApellidos(string ape){apellidos=ape;}
 void setDireccion(string dir){direccion=dir;}
-void setFechaNacimiento(string fn){fecha_nacimiento=cui;}
+void setFechaNacimiento(string fn){fecha_nacimiento=fn;}
 void setTelefono(int tel){telefono=tel;}
 void setCui(bool gen){genero=gen;}
 
@@ -34,6 +34,15 @@ string getFechaNacimiento(){return fecha_nacimiento;}
 int getTelefono(){return telefono;}
 bool getGenero(){return genero;}
 	
-void leer ();	
+void leer() {
+        cout << "CUI: " << cui << endl;
+        cout << "Nombres: " << nombres << endl;
+        cout << "Apellidos: " << apellidos << endl;
+        cout << "Direccion: " << direccion << endl;
+        cout << "Fecha Nacimiento: " << fecha_nacimiento << endl;
+        cout << "Telefono: " << telefono << endl;
+        cout << "Genero: " << genero << endl;
+        cout << "Carnet: " << carnet << endl;
+    }
 	
 };

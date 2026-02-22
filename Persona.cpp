@@ -1,4 +1,4 @@
-//Actividad 
+//Actividad 2 POO
 
 #include <iostream>
 using namespace std;
